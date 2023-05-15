@@ -1,0 +1,43 @@
+.ready span {
+  padding-top: 96px;
+  max-width: 445px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+  margin: 0 200px 0 0;
+  //   margin: 0 auto;
+  align-items: center;
+}
+.ready {
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 96px;
+  // display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 536px) {
+  .input-button2 {
+    flex-direction: column;
+  }
+  .ready span {
+    padding-bottom: 32px;
+    max-width: 328px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.246154px;
+    color: #36536b;
+  }
+}
+.footer-box{
+    background: #1B262F;
+    max-width: 1440px;
+}

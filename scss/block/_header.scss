@@ -1,0 +1,188 @@
+.header {
+  padding-top: 56px;
+}
+.navbar{
+    padding-bottom: 151px
+}
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.img {
+  padding-right: 64px;
+  flex-shrink: 0;
+}
+.img-link {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  // gap: 60px;
+}
+.header-list {
+  padding-right: -50px;
+  gap: 40px;
+  text-align: center;
+  display: flex;
+}
+.header-link {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.header-btn {
+  max-width: 173px;
+  cursor: pointer;
+  border: none;
+  padding: 16px 24px 14px 26px;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+}
+.burger {
+  cursor: pointer;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-image: url(/img/burger.png);
+  display: none;
+}
+@media (max-width: 670px) {
+  .header-link {
+    display: none;
+  }
+  .header-btn {
+    display: none;
+  }
+  .burger {
+    display: inline-block;
+  }
+}
+.input-email {
+  max-width: 449px;
+  border: none;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+}
+.start-button {
+  background: #ba4270;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+  padding: 16px 24px;
+  border: none;
+  cursor: pointer;
+}
+.input-button {
+  padding-bottom: 16px;
+//   max-width: 449px;
+  
+}
+.nav-right img{
+  padding-top: 74px;
+  max-width: 300px;
+  flex-shrink: 0;
+  text-align: center;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 208px;
+}
+.nav-left h2 {
+  max-width: 546px;
+  padding-top: 116px;
+  padding-bottom: 21px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.553846px;
+  color: #36536b;
+}
+.nav-text {
+  //   max-width: 225px;
+//   padding-bottom: 151px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6c8294;
+}
+//
+@media (max-width: 1014px) {
+  .nav-logo {
+    flex-direction: column-reverse;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .nav-left h2 {
+    padding-bottom: 22px;
+    padding-top: 48px;
+    max-width: 573px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.369231px;
+    color: #36536b;
+  }
+  .nav-right {
+    max-width: 159px;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  .nav-text {
+   padding-bottom: 151px;
+  }
+}
+//
+@media (max-width: 550px) {
+  .nav-right {
+    max-width: 127px;
+    padding-bottom: 24px;
+  }
+  .nav-left h2 {
+    max-width:327px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.246154px;
+    color: #36536b;
+  }
+  .input-button{
+    flex-direction: column;
+    // max-width: 327px;
+  }
+  .input-email{
+    padding-bottom: 16px;
+    max-width: 327px;
+    margin: 0 auto;
+    padding: 16px 158px 14px 27px;
+  }
+  .start-button{
+    max-width: 327px;
+    margin: 0 auto;
+    padding: 16px 48px 14px 50px;
+  }
+}
